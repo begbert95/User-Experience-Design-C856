@@ -16,25 +16,25 @@ body {
 }
 
 header {
-    background-image: linear-gradient(var(--ppp-lb), var(--ppp-db));
-    color: white;
+    /* background-image: linear-gradient(var(--taniti-lb), var(--taniti-db)); */
+    color: var(--tdg);
+    background-color: var(--tm);
     display: grid;
     width: 100%;
-    grid-template-columns: auto auto auto;
+    border: 1px solid;
+    border-color: red;
 }
 
-.ppp-logo {
-    width: 100%;
+.taniti-logo {
+    max-width: 30%;
+    border: 1px solid;
 }
 
-.ppp-slogan {
+.taniti-slogan {
+    align-items: center;
     text-align: center;
     padding-top: 5px;
-}
-
-#ppp {
-    font-style: bold;
-    color: white;
+    border: 1px solid;
 }
 
 .navbar {
@@ -52,7 +52,7 @@ header {
 }
 
 .nav-link:hover {
-    background-color: var(--ppp-dg);
+    background-color: var(--taniti-dg);
     color: white;
 }
 
@@ -61,12 +61,12 @@ input {
 }
 
 .btn {
-    background-color: var(--ppp-dg);
+    background-color: var(--taniti-dg);
     color: white;
 }
 
 .btn:hover {
-    background-color: var(--ppp-s);
+    background-color: var(--taniti-s);
     color: black;
 }
 
@@ -74,7 +74,7 @@ input {
 .div-right {
     height: inherit;
     min-width: 10%;
-    background-image: linear-gradient(to right, var(--ppp-s), white, var(--ppp-s));
+    background-image: linear-gradient(to right, var(--taniti-s), white, var(--taniti-s));
     flex-grow: 1;
 }
 
@@ -92,7 +92,7 @@ input {
 }
 
 .active {
-    background-color: var(--ppp-dg);
+    background-color: var(--taniti-dg);
 }
 
 h1,
@@ -101,23 +101,23 @@ h3,
 h4,
 h5,
 h6 {
-    color: var(--ppp-db);
+    color: var(--taniti-db);
 }
 
 .bg-db {
-    background-color: var(--ppp-db);
+    background-color: var(--taniti-db);
 }
 
 .bg-lb {
-    background-color: var(--ppp-lb);
+    background-color: var(--taniti-lb);
 }
 
 .fc-db {
-    color: var(--ppp-db);
+    color: var(--taniti-db);
 }
 
 .fc-s {
-    color: var(--ppp-s);
+    color: var(--taniti-s);
 }
 
 .w-5 {

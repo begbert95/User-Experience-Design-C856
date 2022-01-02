@@ -13,13 +13,15 @@
 
 <body>
 
-    <header>
-        <a href="index.html">
-            <img id="taniti-logo" class="h-100" src="imgs/Taniti.jpg" alt="Taniti">
+    <!-- region universal content -->
+    <header class="container-fluid d-inline-flex">
+        <a href="index.html" class="taniti-logo">
+            <img src="imgs/Taniti.jpg" alt="Taniti" class="img-fluid">
         </a>
-        <div class="taniti-slogan">
-            <h1 id="taniti" class="display-3">Taniti Vacations</h1>
-            <p id="slogan" class="slogan fs-4 fst-italic">Get away and prepare to stay</p>
+        <div class="taniti-slogan flex-column">
+            <h1 id="taniti" class="display-5">Taniti Vacations</h1>
+            <br>
+            <p id="slogan" class="slogan fs-5 fst-italic">Get away and prepare to stay</p>
         </div>
     </header>
 
@@ -28,20 +30,23 @@
         <div class="container-fluid h-100 my-0">
             <div class="collapse navbar-collapse h-100">
                 <div class="navbar-nav fs-5 h-100">
-                    <a class="nav-link h-100" href="index.html">Home</a>
-                    <a class="nav-link h-100" href="dogs.html">Dog Owners</a>
-                    <a class="nav-link h-100" href="cats.html">Cat Owners</a>
-                    <a class="nav-link h-100" href="birds.html">Bird Owners</a>
+                    <a class="nav-link h-100 active" href="index.html">Home</a>
+                    <a class="nav-link h-100" href="attractions.html">Attractions</a>
+                    <a class="nav-link h-100" href="events.html">Events</a>
+                    <a class="nav-link h-100" href="accommodations.html">Accomodations</a>
+                    <a class="nav-link h-100" href="transportation.html">Transportation</a>
+                    <a class="nav-link h-100" href="faq.html">FAQs</a>
                     <a class="nav-link h-100" href="contact-us.html">Contact Us</a>
-                    <a class="nav-link h-100 active" href="about-us.html">About Us</a>
                 </div>
             </div>
             <form class="d-flex">
                 <input class="form-control me-2 fs-6" type="search" placeholder="Search..." aria-label="Search">
-                <button class="btn btn-sm btn-outline-secondary fs-6" type="submit">Fetch</button>
+                <button class="btn btn-sm btn-outline-secondary fs-6" type="submit">Go</button>
             </form>
         </div>
     </nav>
+
+    <!-- endregion -->
 
 
 
@@ -52,13 +57,15 @@
 
         <div class="div-main-content d-grid m-3 align-items-center mb-6">
             <h1 class="row p-4 text-center">
-                About Us
+                Sed dignissim
             </h1>
             <div class="row">
                 <img class="img-fluid img-thumbnail rounded-3 w-50 col" src="imgs/conference photo.jpg">
                 <p class="p-2 col ml-1 fs-4">
-                    Paradigm Pet Professionals has 12 years’ experience working with pet owners, certifications in pet health and nutrition, and customer recognition for outstanding support Services: virtual consultations and presentations, one-on-one consultations concerning
-                    individual pets, group presentations regarding general pet care (can be tailored to the needs of the group)
+                    Sed dignissim, elit vitae sollicitudin tincidunt, ex tellus aliquam mauris, eu accumsan elit massa a elit. Aenean vel vulputate nisi. Curabitur iaculis justo vel aliquet molestie. Nam vehicula tristique dictum. Vivamus eget libero molestie elit posuere
+                    gravida. Donec tempus, arcu quis accumsan hendrerit, augue nunc ultricies nibh, eu tempus erat nibh sit amet lectus. Aliquam vitae venenatis sapien. Etiam egestas venenatis porta. Proin vitae dictum nibh. Pellentesque porttitor in
+                    quam ac ornare. Donec tincidunt ante vitae sem dictum, et consectetur lacus feugiat. Duis dolor mi, imperdiet at molestie at, fermentum non dui. Fusce hendrerit sapien sit amet quam pharetra auctor. Etiam euismod justo vel sagittis
+                    dignissim. Suspendisse consectetur viverra tempor. Fusce vulputate volutpat neque, dapibus ornare tortor lacinia sit amet.
                 </p>
             </div>
         </div>
@@ -67,15 +74,17 @@
     </div>
     <footer class="bg-db d-grid w-100">
         <div class="row text-white justify-content-md-center">
-            <a class="col col-lg-3 pt-4 link-light" href="about-us.html">About Us</a>
+            <!-- <a class="col col-lg-3 pt-4 link-light" href="about-us.html">About Us</a>
             <a class="col col-lg-3 pt-4 link-light" href="contact-us.html">Contact Us</a>
             <a href="index.html" class="w-5">
                 <img class="img-fluid img-thumbnail shrink-photo mt-2" src="imgs/dog logo.png">
-            </a>
+            </a> -->
         </div>
+
         <div class="copyright row text-center fc-s">
-            <P>Copyright © 2021 Paradigm Pet Professionals, All Rights Reserved</P>
+            <P>Copyright © 2021 Taniti Vacations, All Rights Reserved</P>
         </div>
+
     </footer>
 </body>
 

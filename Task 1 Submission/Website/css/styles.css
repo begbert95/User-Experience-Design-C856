@@ -16,24 +16,26 @@ body {
 }
 
 header {
-    /* background-image: linear-gradient(var(--taniti-lb), var(--taniti-db)); */
+    /* background-image: linear-gradient(var(--tlb), var(--tdb)); */
     color: var(--tdg);
     background-color: var(--tm);
     display: grid;
     width: 100%;
-    border: 1px solid;
-    border-color: red;
+    /* border: 1px solid;
+    border-color: red; */
 }
 
-.taniti-logo {
-    max-width: 40%;
-    border: 1px solid;
+.tlogo {
+    max-width: 25%;
+    /* border: 1px solid; */
 }
 
-.taniti-slogan {
+.tslogan {
     text-align: center;
     padding-top: 5px;
-    border: 1px solid;
+    padding-bottom: 5px;
+    margin-left: 18%;
+    /* border: 1px solid; */
 }
 
 .navbar {
@@ -51,7 +53,7 @@ header {
 }
 
 .nav-link:hover {
-    background-color: var(--taniti-dg);
+    background-color: var(--tdg);
     color: white;
 }
 
@@ -60,12 +62,11 @@ input {
 }
 
 .btn {
-    background-color: var(--taniti-dg);
-    color: white;
+    background-color: var(--tdg);
 }
 
 .btn:hover {
-    background-color: var(--taniti-s);
+    background-color: var(--ts);
     color: black;
 }
 
@@ -73,7 +74,7 @@ input {
 .div-right {
     height: inherit;
     min-width: 10%;
-    background-image: linear-gradient(to right, var(--taniti-s), white, var(--taniti-s));
+    background-image: linear-gradient(to right, var(--tlg), white, var(--tlg));
     flex-grow: 1;
 }
 
@@ -91,7 +92,7 @@ input {
 }
 
 .active {
-    background-color: var(--taniti-dg);
+    background-color: var(--tdg);
 }
 
 h1,
@@ -100,23 +101,23 @@ h3,
 h4,
 h5,
 h6 {
-    color: var(--taniti-db);
+    color: var(--tdg);
 }
 
 .bg-db {
-    background-color: var(--taniti-db);
+    background-color: var(--tdg);
 }
 
 .bg-lb {
-    background-color: var(--taniti-lb);
+    background-color: var(--tlg);
 }
 
 .fc-db {
-    color: var(--taniti-db);
+    color: var(--tdg);
 }
 
 .fc-s {
-    color: var(--taniti-s);
+    color: var(--tc);
 }
 
 .w-5 {

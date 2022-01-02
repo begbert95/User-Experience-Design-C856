@@ -13,13 +13,15 @@
 
 <body>
 
-    <header>
-        <a href="index.html">
-            <img id="taniti-logo" class="h-100" src="imgs/Taniti.jpg" alt="Taniti">
+    <!-- region universal content -->
+    <header class="container-fluid d-inline-flex">
+        <a href="index.html" class="taniti-logo">
+            <img src="imgs/Taniti.jpg" alt="Taniti" class="img-fluid">
         </a>
-        <div class="taniti-slogan">
-            <h1 id="taniti" class="display-3">Taniti Vacations</h1>
-            <p id="slogan" class="slogan fs-4 fst-italic">Get away and prepare to stay</p>
+        <div class="taniti-slogan flex-column">
+            <h1 id="taniti" class="display-5">Taniti Vacations</h1>
+            <br>
+            <p id="slogan" class="slogan fs-5 fst-italic">Get away and prepare to stay</p>
         </div>
     </header>
 
@@ -28,20 +30,23 @@
         <div class="container-fluid h-100 my-0">
             <div class="collapse navbar-collapse h-100">
                 <div class="navbar-nav fs-5 h-100">
-                    <a class="nav-link h-100" href="index.html">Home</a>
-                    <a class="nav-link h-100" href="dogs.html">Dog Owners</a>
-                    <a class="nav-link h-100" href="cats.html">Cat Owners</a>
-                    <a class="nav-link h-100 active" href="birds.html">Bird Owners</a>
+                    <a class="nav-link h-100 active" href="index.html">Home</a>
+                    <a class="nav-link h-100" href="attractions.html">Attractions</a>
+                    <a class="nav-link h-100" href="events.html">Events</a>
+                    <a class="nav-link h-100" href="accommodations.html">Accomodations</a>
+                    <a class="nav-link h-100" href="transportation.html">Transportation</a>
+                    <a class="nav-link h-100" href="faq.html">FAQs</a>
                     <a class="nav-link h-100" href="contact-us.html">Contact Us</a>
-                    <a class="nav-link h-100" href="about-us.html">About Us</a>
                 </div>
             </div>
             <form class="d-flex">
                 <input class="form-control me-2 fs-6" type="search" placeholder="Search..." aria-label="Search">
-                <button class="btn btn-sm btn-outline-secondary fs-6" type="submit">Fetch</button>
+                <button class="btn btn-sm btn-outline-secondary fs-6" type="submit">Go</button>
             </form>
         </div>
     </nav>
+
+    <!-- endregion -->
 
 
 
@@ -52,30 +57,33 @@
 
         <div class="div-main-content d-grid m-3">
             <h1 class="row p-4">
-                Birds
+                Nam a nisl vitae massa elementum volutpat ac in velit
             </h1>
 
             <div class="row">
                 <div class="col">
                     <p class="p-2">
-                        Birds are very intriguing creatures as they can range from birds as small as a Cuban bee hummingbird (about two inches long and a little over 1/20 of an ounce) to as large as an ostrich. While most birds fly, there are some that don't. Birds are amazing
-                        and each breed is unique in its own way, particularly when it comes to their relational needs and well-being. Unfortunately, birds can experience sadness and depression just like humans. A number of root causes may be responsible
-                        for your bird's depression such as an illness (either physical or mental), losing its companion, or increasingly becoming bored. Some signs to help identify if your bird is experiencing depression may include the following:
+                        Nam a nisl vitae massa elementum volutpat ac in velit. Donec vitae mauris ac ligula dictum eleifend id non felis. Nam nec tristique tortor. Quisque tempus eget odio vitae posuere. Suspendisse interdum diam eget risus molestie viverra. Integer non mi pretium,
+                        euismod orci non, congue elit. Nulla efficitur et augue in tincidunt. Vivamus ultricies eget sapien a euismod. Proin pellentesque a nisi vel cursus. Praesent posuere massa nec quam facilisis placerat. Nullam sit amet nulla pharetra,
+                        feugiat tortor sit amet, accumsan mi. Nulla feugiat mi auctor dui tempus fringilla. Nunc ut metus egestas, viverra magna vitae, luctus justo. Morbi ligula nisi, malesuada vitae sem ut, malesuada bibendum diam. Mauris ac semper
+                        elit, a volutpat risus. Suspendisse potenti:
                         <ul>
                             <li>
-                                reduced appetite
+                                Sed pharetra ipsum id congue viverra
                             </li>
                             <li>
-                                becoming increasingly irritable
+                                Nunc pharetra diam at mi condimentum, nec facilisis justo iaculis
                             </li>
                             <li>
-                                aggressive behavior
+                                Suspendisse laoreet erat vel odio fringilla, sed imperdiet elit blandit
                             </li>
                             <li>
-                                songs have a different, more solemn tone
+                                Donec ullamcorper sem nec lectus tincidunt, ullamcorper vulputate magna sodales
                             </li>
                         </ul>
-                        Be sure to tell your veterinarian if you see signs of any of these symptoms. Just like many illnesses, identifying and treating the symptoms earlier may drastically increase the lifespan of your birdie.
+                        In hac habitasse platea dictumst. Maecenas non turpis sapien. Aenean a risus at purus faucibus semper. Proin rhoncus augue ligula, in congue quam tempor vel. Aliquam varius mi ac tortor consequat tincidunt. Nullam ultrices ligula quam, vitae auctor elit
+                        auctor sit amet. Vivamus malesuada mi non massa tincidunt, a ullamcorper justo lobortis. Donec ut tempus tortor. Vestibulum commodo felis a laoreet placerat. Maecenas porttitor pretium gravida. Sed vel felis volutpat, vulputate
+                        tortor tempor, auctor ligula. Cras vel tellus accumsan, placerat lacus id, sodales sapien. Mauris et tortor luctus, volutpat dolor a, aliquam lorem. Proin ac est arcu.
                     </p>
                 </div>
                 <div class="col">
@@ -93,15 +101,17 @@
 
     <footer class="bg-db d-grid w-100">
         <div class="row text-white justify-content-md-center">
-            <a class="col col-lg-3 pt-4 link-light" href="about-us.html">About Us</a>
+            <!-- <a class="col col-lg-3 pt-4 link-light" href="about-us.html">About Us</a>
             <a class="col col-lg-3 pt-4 link-light" href="contact-us.html">Contact Us</a>
             <a href="index.html" class="w-5">
                 <img class="img-fluid img-thumbnail shrink-photo mt-2" src="imgs/dog logo.png">
-            </a>
+            </a> -->
         </div>
+
         <div class="copyright row text-center fc-s">
-            <P>Copyright © 2021 Paradigm Pet Professionals, All Rights Reserved</P>
+            <P>Copyright © 2021 Taniti Vacations, All Rights Reserved</P>
         </div>
+
     </footer>
 </body>
 

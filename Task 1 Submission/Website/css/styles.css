@@ -25,12 +25,12 @@ header {
     border-color: red; */
 }
 
-.tlogo {
+.taniti-logo {
     max-width: 25%;
     /* border: 1px solid; */
 }
 
-.tslogan {
+.taniti-slogan {
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -53,8 +53,8 @@ header {
 }
 
 .nav-link:hover {
-    background-color: var(--tdg);
-    color: white;
+    background-color: var(--tdy);
+    color: black
 }
 
 input {
@@ -63,10 +63,11 @@ input {
 
 .btn {
     background-color: var(--tdg);
+    color: white;
 }
 
 .btn:hover {
-    background-color: var(--ts);
+    background-color: var(--tdy);
     color: black;
 }
 

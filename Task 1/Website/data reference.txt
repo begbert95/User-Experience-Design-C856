@@ -1,0 +1,11 @@
+/* CSV */
+137c75,f4e04d,f2ed6f,cee397,e7ad99
+
+/* Array */
+["137c75","f4e04d","f2ed6f","cee397","e7ad99"]
+
+/* Object */
+{"Pine Green":"137c75","Minion Yellow":"f4e04d","Corn":"f2ed6f","Yellow Green Crayola":"cee397","Melon":"e7ad99"}
+
+/* Extended Array */
+[{"name":"Pine Green","hex":"137c75","rgb":[19,124,117],"cmyk":[85,0,6,51],"hsb":[176,85,49],"hsl":[176,73,28],"lab":[47,-29,-4]},{"name":"Minion Yellow","hex":"f4e04d","rgb":[244,224,77],"cmyk":[0,8,68,4],"hsb":[53,68,96],"hsl":[53,88,63],"lab":[88,-9,71]},{"name":"Corn","hex":"f2ed6f","rgb":[242,237,111],"cmyk":[0,2,54,5],"hsb":[58,54,95],"hsl":[58,83,69],"lab":[92,-14,61]},{"name":"Yellow Green Crayola","hex":"cee397","rgb":[206,227,151],"cmyk":[9,0,33,11],"hsb":[77,33,89],"hsl":[77,58,74],"lab":[87,-19,35]},{"name":"Melon","hex":"e7ad99","rgb":[231,173,153],"cmyk":[0,25,34,9],"hsb":[15,34,91],"hsl":[15,62,75],"lab":[76,19,19]}]
